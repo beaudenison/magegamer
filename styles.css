@@ -1,0 +1,143 @@
+:root {
+  color-scheme: dark;
+  --bg: #10110f;
+  --ink: #f3f1ea;
+  --muted: #b7b3a8;
+  --line: #2c2b27;
+  --panel: #181914;
+  --gold: #e4c27a;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.5 Georgia, "Iowan Old Style", Palatino, serif;
+}
+
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 3.2rem 1.3rem 4rem;
+}
+
+.mark {
+  margin: 0 0 0.8rem;
+  color: var(--gold);
+  font: 0.78rem/1 ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 7vw, 3.6rem);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.lead {
+  max-width: 34rem;
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+}
+
+.join {
+  margin-top: 2.2rem;
+  padding: 1.15rem 1.15rem 0.4rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+
+.label {
+  margin: 0;
+  color: var(--muted);
+  font: 0.75rem/1 ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.address {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.7rem;
+  margin: 0.35rem 0 0.8rem;
+  font: 1.35rem/1.2 ui-sans-serif, system-ui, sans-serif;
+}
+
+.port {
+  color: var(--gold);
+}
+
+.port::before { content: ":"; color: var(--muted); }
+
+ol {
+  margin: 0;
+  padding: 0 0 0.6rem 1.15rem;
+}
+
+li { margin: 0.35rem 0; }
+
+a { color: var(--gold); }
+
+.board { margin-top: 2.4rem; }
+
+.board-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.updated, .note, .empty {
+  color: var(--muted);
+  font: 0.86rem/1.4 ui-sans-serif, system-ui, sans-serif;
+}
+
+.updated { margin: 0; }
+
+.table-wrap {
+  margin-top: 0.7rem;
+  overflow-x: auto;
+  border-top: 1px solid var(--line);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font: 0.92rem/1.3 ui-sans-serif, system-ui, sans-serif;
+}
+
+th, td {
+  padding: 0.65rem 0.7rem 0.65rem 0;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--line);
+}
+
+th {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+td:first-child, th:first-child { padding-right: 1rem; }
+
+.name { color: var(--ink); }
+
+.note { margin: 0.8rem 0 0; max-width: 38rem; }
+
+.empty { white-space: normal; }

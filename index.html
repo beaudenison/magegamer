@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mage Gamer</title>
+  <meta name="description" content="Join Beau's XMage server and see player stats.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <p class="mark">magegamer.xyz</p>
+    <h1>Beau XMage</h1>
+    <p class="lead">A private Magic server for friends. Accounts keep the stats on this page.</p>
+
+    <section class="join" aria-label="How to join">
+      <p class="label">Server</p>
+      <p class="address"><span id="host">xmage.playit.plus</span><span class="port">16273</span></p>
+      <ol>
+        <li>Install the 1.4.62 client from <a href="https://xmage.today/">xmage.today</a>. Everyone on this server needs that same build.</li>
+        <li>In the client, connect to the address and port above.</li>
+        <li>Register in the client. The server emails the first password. Forgot password is in the connect window.</li>
+      </ol>
+    </section>
+
+    <section class="board" aria-labelledby="board-title">
+      <div class="board-head">
+        <h2 id="board-title">Players</h2>
+        <p id="updated" class="updated"></p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Matches</th>
+              <th>Quit rate</th>
+              <th>Tournaments</th>
+              <th>Rating</th>
+              <th>Last played</th>
+            </tr>
+          </thead>
+          <tbody id="players">
+            <tr><td colspan="6" class="empty">Loading stats…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Quit rate counts a match left by quit or by timing out. XMage does not store win totals here.</p>
+    </section>
+  </main>
+  <script src="board.js"></script>
+</body>
+</html>
