@@ -1,4 +1,29 @@
 {
-  "updatedAt": null,
-  "players": []
+  "updatedAt": "2026-10-12T18:59:21Z",
+  "players": [
+    {
+      "name": "Beau",
+      "matches": 2,
+      "quitRate": 0.0,
+      "tournaments": 0,
+      "rating": null,
+      "lastPlayed": "2026-10-12T18:36:55Z"
+    },
+    {
+      "name": "Computer 2",
+      "matches": 2,
+      "quitRate": 0.0,
+      "tournaments": 0,
+      "rating": null,
+      "lastPlayed": "2026-10-12T18:36:55Z"
+    },
+    {
+      "name": "Computer 3",
+      "matches": 1,
+      "quitRate": 0.0,
+      "tournaments": 0,
+      "rating": null,
+      "lastPlayed": "2026-10-12T04:11:33Z"
+    }
+  ]
 }
