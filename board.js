@@ -36,7 +36,7 @@ function fill(player) {
   return tr;
 }
 
-fetch("stats.json", { cache: "no-store" })
+fetch("https://raw.githubusercontent.com/beaudenison/magegamer/main/stats.json", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error(String(response.status));
     return response.json();
