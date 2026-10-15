@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T17:05:35Z",
+  "updatedAt": "2026-10-15T22:09:35Z",
   "players": [
     {
       "name": "Beau",
@@ -13,33 +13,33 @@
       "name": "Computer 2",
       "matches": 2,
       "quitRate": 0.0,
-      "tournaments": 7,
+      "tournaments": 8,
       "rating": null,
-      "lastPlayed": "2026-10-15T16:51:24Z"
+      "lastPlayed": "2026-10-15T21:58:24Z"
     },
     {
       "name": "Computer 3",
       "matches": 1,
       "quitRate": 0.0,
-      "tournaments": 9,
+      "tournaments": 10,
       "rating": null,
-      "lastPlayed": "2026-10-15T16:51:24Z"
+      "lastPlayed": "2026-10-15T21:58:24Z"
     },
     {
       "name": "Broll",
       "matches": 0,
       "quitRate": null,
-      "tournaments": 9,
+      "tournaments": 10,
       "rating": null,
-      "lastPlayed": "2026-10-15T16:51:24Z"
+      "lastPlayed": "2026-10-15T21:58:24Z"
     },
     {
       "name": "Computer 4",
       "matches": 0,
       "quitRate": null,
-      "tournaments": 9,
+      "tournaments": 10,
       "rating": null,
-      "lastPlayed": "2026-10-15T16:51:24Z"
+      "lastPlayed": "2026-10-15T21:58:24Z"
     },
     {
       "name": "Computer 5",
