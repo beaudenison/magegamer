@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T02:41:35Z",
+  "updatedAt": "2026-10-16T04:01:35Z",
   "players": [
     {
       "name": "Beau",
@@ -29,9 +29,9 @@
       "name": "Broll",
       "matches": 0,
       "quitRate": null,
-      "tournaments": 11,
+      "tournaments": 12,
       "rating": null,
-      "lastPlayed": "2026-10-16T02:38:11Z"
+      "lastPlayed": "2026-10-16T03:49:25Z"
     },
     {
       "name": "Computer 4",
@@ -53,9 +53,9 @@
       "name": "Yippee",
       "matches": 0,
       "quitRate": null,
-      "tournaments": 1,
+      "tournaments": 2,
       "rating": null,
-      "lastPlayed": "2026-10-15T05:47:02Z"
+      "lastPlayed": "2026-10-16T03:49:25Z"
     }
   ]
 }
